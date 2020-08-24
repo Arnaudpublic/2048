@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>2048</title>
+	<link rel="stylesheet" type="text/css" href="2048_style.css">
+	<script src="2048_script.js"></script> 
+</head>
+<body onload="new_game()">
+
+	<div class="Full_page">
+		<div>
+			<h2>Playing 2048</h2>
+		</div>
+
+		<div class="scores">
+			<div id="current_score">Current score:</div>
+			<div id="best_score">Best score:</div>
+			<button id="new_game" onclick="new_game()">New game</button>
+		</div>
+
+		<div class="Full_board">
+			<div class="column">
+				<div class="box"></div>
+				<div class="box"></div>
+				<div class="box"></div>
+				<div class="box"></div>
+			</div>
+			<div class="column">
+				<div class="box"></div>
+				<div class="box"></div>
+				<div class="box"></div>
+				<div class="box"></div>
+			</div>
+			<div class="column">
+				<div class="box"></div>
+				<div class="box"></div>
+				<div class="box"></div>
+				<div class="box"></div>
+			</div>
+			<div class="column">
+				<div class="box"></div>
+				<div class="box"></div>
+				<div class="box"></div>
+				<div class="box"></div>
+			</div>
+		</div>
+
+		<div class="HowToPlay">
+			<p id="game_over">Game over! Press "new game" to restart</p>
+			<p> How to play: Use your arrow keys to move the tiles. When two tiles with the same number touch, they merge into one! </p>
+		</div>
+		<div class="credits">
+			<p>
+			Website done and maintained by Arnaud#0865, contact via discord for any feedback <br><br>
+			Credits to <a href="https://stackoverflow.com/questions/2264072/detect-a-finger-swipe-through-javascript-on-the-iphone-and-android" target="_blank" style="color: yellow; text-decoration: none;">a stack overflow user</a> for the swiping detection on mobile
+			</p>
+		</div>
+
+	</div>
+
+</body>
+</html>

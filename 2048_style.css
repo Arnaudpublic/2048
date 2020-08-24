@@ -1,0 +1,105 @@
+html {
+    font-family: Verdana;
+}
+
+body {
+    height: 800px;
+    text-align: center;
+    background-image: url(https://cdn.discordapp.com/attachments/587307618155102257/723923643343700008/2415e3a017e15b3e0ede2bc7a8729933.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.scores {
+    display: inline-flex;
+    padding: auto;
+}
+#current_score, #best_score {
+    margin: 10px;
+}
+
+.Full_page {
+    height: 100%;
+    width: 50%;
+    margin: 5% 25% 0% 25%;
+  	padding: 0px 0px 0px 0px;
+    background-color: rgb(0,0,0,0.8);
+    color: white;
+    display: flex;
+    align-content: space-between;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.Full_board {
+    margin: 0% 28%;
+    padding: auto;
+    height: 50%;
+    width: 44%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+@media screen and (max-width: 1000px) {
+  .Full_page {
+    width: 60%;
+    margin: 5% 20% 0% 20%;
+  }
+  .Full_board {
+    margin: 0% 22.5%;
+    width: 55%;
+  }
+}
+@media screen and (max-width: 700px) {
+  .Full_page {
+    width: 70%;
+    margin: 5% 15% 0% 15%;
+  }
+  .Full_board {
+    margin: 0% 15%;
+    width: 70%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .Full_page {
+    width: 100%;
+    margin: 5% 0% 0% 0%;
+  }
+  .Full_board {
+    margin: 0% 5%;
+    width: 90%;
+  }
+}
+
+.HowToPlay {
+    padding: auto;
+}
+#game_over {
+	font-size: 18px;
+}
+
+.column {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+}
+
+.box {
+    background-color: gray;
+    border: 1px solid black;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.credits {
+  width: 100%;
+  padding: 20px 0;
+  padding-top: 1%;
+  margin-top: 1%;
+  background-color: rgb(0,0,0,0.9);
+  text-align: center;
+  color: white;
+}
