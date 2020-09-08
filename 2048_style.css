@@ -3,9 +3,9 @@ html {
 }
 
 body {
-    height: 800px;
+    height: 100vh;
     text-align: center;
-    background-image: url(https://cdn.discordapp.com/attachments/587307618155102257/723923643343700008/2415e3a017e15b3e0ede2bc7a8729933.jpg);
+    background-image: url(2415e3a017e15b3e0ede2bc7a8729933.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
