@@ -17,6 +17,10 @@ document.addEventListener('touchmove', handleTouchMove, false);
 var xDown = null;                                                        
 var yDown = null;
 
+function DontUnload() {
+  return "blablabla"
+}
+
 function getTouches(evt) {
   return evt.touches ||             // browser API
          evt.originalEvent.touches; // jQuery
